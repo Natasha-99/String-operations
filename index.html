@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Работа со строками</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Операции со строками</h1>
+        
+        <div class="task">
+            <h3>1. Подсчет вхождений буквы</h3>
+            <input type="text" id="string1" placeholder="Введите строку">
+            <input type="text" id="letter1" placeholder="Введите букву" maxlength="1">
+            <button onclick="task1()">Выполнить</button>
+            <p id="result1"></p>
+        </div>
+        
+        <div class="task">
+            <h3>2. Подсчет слов в строке</h3>
+            <input type="text" id="string2" placeholder="Введите строку">
+            <button onclick="task2()">Выполнить</button>
+            <p id="result2"></p>
+        </div>
+        
+        <div class="task">
+            <h3>3. Проверка, является ли слово числом</h3>
+            <input type="text" id="string3" placeholder="Введите слово">
+            <button onclick="task3()">Выполнить</button>
+            <p id="result3"></p>
+        </div>
+        
+        <div class="task">
+            <h3>4. Удаление всех пробелов</h3>
+            <input type="text" id="string4" placeholder="Введите строку">
+            <button onclick="task4()">Выполнить</button>
+            <p id="result4"></p>
+        </div>
+        
+        <div class="task">
+            <h3>5. Длина самого короткого слова (из 3 слов)</h3>
+            <input type="text" id="string5" placeholder="Введите 3 слова">
+            <button onclick="task5()">Выполнить</button>
+            <p id="result5"></p>
+        </div>
+        
+        <div class="task">
+            <h3>6. Количество букв 'у' на четных позициях</h3>
+            <input type="text" id="string6" placeholder="Введите слово">
+            <button onclick="task6()">Выполнить</button>
+            <p id="result6"></p>
+        </div>
+        
+        <div class="task">
+            <h3>7. Замена букв 'о' на пробелы</h3>
+            <input type="text" id="string7" placeholder="Введите слово">
+            <button onclick="task7()">Выполнить</button>
+            <p id="result7"></p>
+        </div>
+        
+        <div class="task">
+            <h3>8. Обмен четных позиций в словах одной длинны</h3>
+            <input type="text" id="string8a" placeholder="Первое слово">
+            <input type="text" id="string8b" placeholder="Второе слово">
+            <button onclick="task8()">Выполнить</button>
+            <p id="result8"></p>
+        </div>
+        
+        <div class="task">
+            <h3>9. Фамилия и инициалы</h3>
+            <input type="text" id="string9" placeholder="Фамилия Имя Отчество">
+            <button onclick="task9()">Выполнить</button>
+            <p id="result9"></p>
+        </div>
+        
+        <div class="task">
+            <h3>10. Удаление букв, совпадающих с последней</h3>
+            <input type="text" id="string10" placeholder="Введите слово">
+            <button onclick="task10()">Выполнить</button>
+            <p id="result10"></p>
+        </div>
+        
+        <div class="task">
+            <h3>11. Удаление букв из S, которые есть в V</h3>
+            <input type="text" id="string11s" placeholder="Слово S">
+            <input type="text" id="string11v" placeholder="Слово V">
+            <button onclick="task11()">Выполнить</button>
+            <p id="result11"></p>
+        </div>
+        
+        <div class="task">
+            <h3>12. Удаление каждой третьей буквы</h3>
+            <input type="text" id="string12" placeholder="Введите слово">
+            <button onclick="task12()">Выполнить</button>
+            <p id="result12"></p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
